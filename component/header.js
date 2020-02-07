@@ -1,5 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import * as Font from 'expo-font';
+import { AppLoading } from 'expo';
+
 
 
 
@@ -8,7 +11,7 @@ export default class Header_Sexy extends React.Component {
   render() {
 return(
     <View style={styles.header}>
-      <Text style={styles.text1}>Application fruitière</Text>
+      <Text style={styles.text1}>Procrastinator</Text>
     </View>
 )
 
@@ -30,7 +33,8 @@ alignItems: 'center',
   },
   text1:{
     fontSize: 30,
-color: "white"
+color: "white",
+      fontFamily: "raleway-medium"
 
 
   },
